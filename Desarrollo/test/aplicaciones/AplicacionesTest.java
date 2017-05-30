@@ -30,7 +30,7 @@ public class AplicacionesTest {
 	@Test
 	public void testMilPequeñas() {
 		Aplicaciones app = new Aplicaciones(new File(pathIn + "02_mil_pequeñas.in"),
-				new File(pathOut + "02_mil_peque�as.out"));
+				new File(pathOut + "02_mil_pequeñas.out"));
 		app.resolver();
 		app.grabaArchivo();
 	}
